@@ -1,21 +1,27 @@
 
-  h2 {
+  body {
+    background: #f8e8a6;
+  }
+  
+  h2,
+  p {
     text-align: center;
-    font-weight: 900;
-    font-size: 34px;
-    line-height: 48px;
-    margin: 0;
-    color: #000000;
-    padding: 0 0 24px;
+  }
+  
+  .croissant {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    color: green;
   }
 
-  h3 {
-    text-align: center;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 48px;
-    margin: -20px;
-    color:#000000;
-    padding: 0 0 24px;
-  }
   .nav-link{ width: 100%; text-align: center; }
